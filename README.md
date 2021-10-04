@@ -14,6 +14,11 @@ There are no configuration options at the moment.
 
 You can use `ag` as if it was on the command line: `> ag --lua function` or `ag function` - change "function" with your search string. Accepts all the same options as ag usually does.
 
+### Available commands
+
+- `agOpenHere` opens the file under the cursor in the current buffer.
+- `agOpenInTab` opens the file under the cursor in a new tab.
+
 ## Install
 
 Add this repo as a `pluginrepos` option like this:
